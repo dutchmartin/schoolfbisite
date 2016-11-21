@@ -1,0 +1,24 @@
+<?php
+# function for random bacon ipsum alinea
+# @return random string with a bacon ipsum alina
+	function baconipsum(){
+		$alinea = array(
+		"Bacon ipsum dolor amet jowl boudin andouille tongue capicola, fatback turkey venison. Ground round strip steak filet mignon chuck beef meatball. Short ribs bresaola pork shank, cupim ribeye picanha corned beef tail sirloin ham hock ground round sausage fatback. Pork belly beef flank fatback ground round shankle, porchetta ham. Landjaeger burgdoggen bacon cow meatloaf beef ribs, spare ribs kevin ground round picanha tri-tip jerky cupim. Shank ground round pork capicola cupim tenderloin short loin",
+		"Bacon ipsum dolor amet cow leberkas pork loin rump.  Bacon landjaeger turducken t-bone.  Chuck meatloaf short loin, ground round ribeye pork loin tongue spare ribs sirloin shankle turducken alcatra ball tip prosciutto.  Jowl beef tail pork chop chicken flank porchetta pastrami ball tip pork belly burgdoggen shankle.  Drumstick shoulder alcatra picanha short loin corned beef.",
+		"Bacon ipsum dolor amet chicken corned beef ham bacon hamburger ham hock, sausage picanha pork loin jowl.  Beef jowl prosciutto short ribs.  Chicken andouille bresaola pork ground round turducken.  Pastrami frankfurter jerky, sausage ribeye ham burgdoggen chuck kielbasa brisket shank turkey bacon.",
+		"Bacon ipsum dolor amet biltong beef strip steak bresaola kielbasa short ribs meatloaf alcatra drumstick chuck chicken.  T-bone frankfurter tail salami jowl ham.  Ground round turducken meatball, strip steak tri-tip leberkas short loin.  Ham prosciutto chicken, pastrami porchetta landjaeger biltong bresaola capicola picanha alcatra sausage filet mignon cupim.  Bresaola bacon ham corned beef tenderloin, boudin flank pork loin.",
+		"Bacon ipsum dolor amet pastrami tail filet mignon ribeye ball tip pork chop flank andouille salami.  Strip steak corned beef kielbasa drumstick.  Salami kevin pork loin, turkey shankle leberkas hamburger prosciutto shoulder tail doner chicken porchetta landjaeger burgdoggen.  Boudin pork belly alcatra rump brisket capicola.  Ham hock filet mignon burgdoggen, capicola sausage brisket pork chop.  Tongue leberkas pork, cow meatball chuck flank strip steak jerky porchetta tenderloin ball tip picanha ham.",
+		"Bacon ipsum dolor amet tongue sirloin short ribs jowl.  Kielbasa burgdoggen biltong, pork belly turkey pork kevin ham ground round.  Pork chuck pancetta fatback.  Andouille chicken t-bone, jowl pork belly corned beef jerky pig.  Ball tip beef biltong sirloin boudin salami.",
+		"Bacon ipsum dolor amet pork belly pork spare ribs salami.  Turducken t-bone kevin pancetta tenderloin burgdoggen pork belly pastrami tail boudin shankle.  Chuck pork chop venison strip steak.  Picanha pig cow kielbasa.  Picanha short loin tri-tip, turducken chicken kielbasa t-bone ham hock.",
+		"Bacon ipsum dolor amet strip steak porchetta swine frankfurter boudin meatball beef prosciutto shank ribeye rump.  Meatloaf jowl pork belly landjaeger tri-tip spare ribs ham hock andouille kevin cow t-bone.  Alcatra andouille chicken burgdoggen capicola, flank pork chop sirloin strip steak.  T-bone bresaola tenderloin cupim, salami pork belly doner pork picanha leberkas turkey.  Shank pig chuck jerky brisket prosciutto pancetta chicken turkey short ribs filet mignon landjaeger burgdoggen sirloin.",
+		"Bacon ipsum dolor amet beef ribs ribeye doner meatloaf, bacon flank fatback ham hock shank strip steak turkey.  Doner spare ribs kielbasa ham hock cupim beef ribs short ribs.  Burgdoggen pastrami capicola, chicken ham hock landjaeger prosciutto bresaola.  Shoulder turducken hamburger burgdoggen, pork chop doner ground round rump.  Frankfurter bresaola ribeye shank burgdoggen porchetta, drumstick pork belly ball tip pork.  Beef ribs bresaola shankle meatloaf tail shank.",
+		"Bacon ipsum dolor amet capicola prosciutto bresaola sirloin meatball spare ribs rump alcatra sausage.  Andouille doner alcatra, turkey short loin hamburger jerky ham kielbasa chuck pork meatloaf picanha cupim.  Pork chop chuck beef ribs ball tip flank sausage, biltong bresaola drumstick spare ribs tongue shankle porchetta short ribs leberkas.  Cow porchetta prosciutto picanha salami.  Chuck leberkas meatball, salami hamburger sausage sirloin strip steak kielbasa.  Filet mignon salami pork loin, pork tenderloin ribeye ball tip ham ham hock sausage alcatra beef rump.",
+		"Bacon ipsum dolor amet filet mignon turkey short loin ribeye kielbasa pig pancetta short ribs picanha andouille flank brisket.  Biltong salami shank, hamburger turkey fatback porchetta pastrami.  Spare ribs turkey ham t-bone.  Swine picanha doner pastrami leberkas tail, venison sausage pork chop ham hock shank cupim.  Turkey burgdoggen shank short loin hamburger landjaeger cupim pork."
+		);
+	$numberof = count($alinea);
+	$num = rand(0 , $numberof);
+	return $alinea[$num];
+	
+}
+
+?>

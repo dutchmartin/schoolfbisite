@@ -1,0 +1,182 @@
+html{
+	background: #b3b3b0;
+	background: -webkit-linear-gradient(top, white 0%, grey 100%);
+	background-color: #e3e2dd;
+	background-repeat: no-repeat;
+	color: black;
+	font-family: sans-terif;
+
+}
+
+body, html{ 
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header { 
+	height: 60px;
+	width: 100%;
+	background-color: #08088A;
+	border-radius: 5px;
+	margin-top: -10px;
+}
+
+#logo {
+	height: 110px;
+	width: 110px;
+	margin-left: -1px;
+	margin-top: 10px;
+	float: left;
+	display: block;
+}
+
+.button {
+    background-color: #08088A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 0px 0px 17px 0px rgba(25,25,112,1);
+}
+
+.button:hover {
+	background-color: #08033B;
+	transition: All 0.5s ease;
+}
+
+select { 
+	background-color: #08088A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 0px 0px 17px 0px rgba(25,25,112,1);
+}
+
+select:hover {
+	background-color: #08033B;
+	transition: All 0.5s ease;
+	
+}
+
+article { 
+	height: 400px;
+	width: 900px;
+	margin-top: 30px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 50%;
+	border: thin solid;
+	text-align: center;
+}
+
+
+footer { 	
+	height: 120px;
+	width: 900px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	background-color: white;
+	border: thin solid;
+	
+} 
+
+#I1 { 
+	margin-top: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
+} 
+
+#id01 { 
+	height: 250px;
+	width: 250px;
+	background-color: #E6E6E6;
+	box-shadow: 10px 10px 10px #888888;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	border: thin solid;
+	
+}
+
+#forgot { 		
+	width: 10px;
+}
+
+#logintekst { 
+	margin-top: 75px;
+	font-size: 20px;
+	font-family: 'Open Sans', arial;
+}
+
+#loginarticle { 
+	height: 500px;
+	margin-top: 30px;
+}
+
+#volgons { 
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+#madeby {
+	float: right;
+	margin-top: 70px;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.mediapic {
+	height: 25px;
+	width: 25px;
+	margin-left: 20px;
+}
+
+#encrypt {
+	margin-top: 10px;
+} 
+#flag{
+	height:150px;
+}
+#error{
+	color:red;
+}
+#logout{
+	text-align:right;
+}
+
+#slideshow{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.slideshowHolder{
+	background-color: lightgrey;
+	color: black;
+	padding: 20px;
+	margin: 20px 0px 20px 0px;
+}
+
+#secret {
+}
